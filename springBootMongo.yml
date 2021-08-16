@@ -23,7 +23,7 @@ spec:
         app: springboot
     spec:
       containers:
-      - image: benarjee.azurecr.io/spring-boot-mongo
+      - image: 413341166331.dkr.ecr.us-east-1.amazonaws.com/benarjeep
         name: springboot
         ports:
         - containerPort: 8080  
